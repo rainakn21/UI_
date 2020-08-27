@@ -1,0 +1,87 @@
+*
+{
+    margin=0;
+    padding: 0;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(p.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar
+{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.nav-menu
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-menu li{
+    display: inline-block;
+}
+.nav-menu li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.nav-menu li:hover{
+    border: 2px solid:white;
+    background-color: gray;
+}
+.main
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 2px;
+    margin-top: 0;
+
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 275px;
+}
+.adopt
+{
+    margin: 30px;
+    margin-left: 540px;
+}
+.btn
+{
+    border: 2px solid white;
+    padding: 10px 30px;
+    color: yellow;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.adopt a:hover
+{
+    background-color:black;
+}
+.logo
+{
+    text-decoration: none;
+    float: left;
+    color: yellow;
+    font-size: 50px;
+    padding: 20px 100px ;
+    width: 140px;
+    height: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+
+}
